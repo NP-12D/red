@@ -1,0 +1,137 @@
+body{
+    width:1920px;
+    display:flex;
+   padding: 0px 100px;
+    justify-content: center;
+    margin: 0 auto;
+    overflow-x: hidden;
+    flex-direction: column;
+}
+html{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width:100%;
+    padding: 20px 0px;
+    height: 80px;
+}
+.logo_1 img{
+    width:24px;
+    height:24px;
+    padding:1.5px  3.5px ;
+}
+
+.logo_1{
+    display:flex;
+    gap:4px;
+    align-items: center;
+}
+.logo_1 h2{
+    display: inline;
+    font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+   color: black;
+}
+.login{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+   
+}
+.login a{
+    width: 24px;
+    height: 24px;
+}
+.login div{
+       display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.login div img{
+    width:40px;
+    height:40px;
+}
+.login div button{
+    width: 20px;
+    height:20px;
+    border:none;
+    background-color: white;
+}
+.login div button img{
+    width: 10px;
+    height: 5.750000476837158px;
+
+
+}
+.prodacts_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 63px;
+    width: 100%;
+    padding: 19.5px 0px;
+    margin-top: 72px;
+    margin-bottom: 32px;
+}
+.filter{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 32px;
+    height: 24px;
+    width: 404px;
+}
+.filter p{
+    font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 0%;
+color:#3E424A;
+
+}
+.filter span{
+    width:0px;
+    height:14px;
+    border-left:1px solid #E1DFE1;
+}
+.filter div{
+     display: flex;
+    align-items: center;
+    gap:8px;
+}
+.filter button{
+    border: none;
+    background-color: white;
+}
+.prodacts_menu h2{
+    font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 42px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
